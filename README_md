@@ -1,0 +1,32 @@
+
+# Security GIS Field Project
+
+**Author**: Thembele Tanyanya Nyati  
+**Role**: Specialist Combat Tracker  
+**Project**: Tactical GIS Deployment using QField and QGIS
+
+## Description
+This project demonstrates how to build and deploy a GIS-based security monitoring system using satellite imagery, patrol paths, motion detection zones, and critical asset mapping. It is optimized for mobile field use via QField and QFieldCloud.
+
+## Structure
+- `project/project.qgs` — The main QGIS project file.
+- `data/asset_locations.geojson` — Key infrastructure like solar plant and staff quarters.
+- `data/motion_zones.geojson` — Motion-sensitive surveillance areas.
+- `data/patrol_routes.geojson` — Patrol lines connecting zones of interest.
+
+## Deployment
+1. Open `project.qgs` in QGIS.
+2. Install the QFieldSync plugin.
+3. Sync to a folder for QField use.
+4. Upload to QFieldCloud or transfer manually to a mobile device.
+
+## Coordinates
+Centered at: **17°50'20.3"S, 25°42'02.8"E** (Decimal: -17.838972, 25.700778)
+
+## Use Cases
+- Safari or wildlife reserve perimeter monitoring
+- Anti-poaching patrols and tracker deployments
+- Surveillance for isolated field assets
+
+## License
+This field template is open for security practitioners to adapt and deploy.
